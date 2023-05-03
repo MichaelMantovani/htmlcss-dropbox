@@ -9,9 +9,13 @@
 
 /* CUSTOM PROPERTIES */
 
+:root{
+  --bg: rgb(180,208,231); 
+}
 
 
 /* GENERICS */
+
 
 header{
   height: 50px;
@@ -23,6 +27,21 @@ header{
 
 .bd{
   border: 1px dashed black;
+}
+
+.row{
+  height: 400px;
+  padding-top: 30px;
+}
+
+.container-large{
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.bg{
+  background-color: var(--bg);
 }
 
 
@@ -46,3 +65,31 @@ header{
 }
 
 
+
+/* MAIN */
+
+/* Presentation */
+
+.presentation{
+  height: 100%;
+}
+
+.title{
+  height: 30%;
+}
+
+.content{
+  height: 70%;
+  display: flex;
+}
+
+.intro{
+  height: 100%;
+  width: 50%;
+}
+
+
+.intro-img{
+  height: 130%;
+  width: 50%;
+}
