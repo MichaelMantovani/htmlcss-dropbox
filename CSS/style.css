@@ -40,6 +40,12 @@ header{
   margin: 0 auto;
 }
 
+.container-small{
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .bg{
   background-color: var(--bg);
 }
@@ -93,3 +99,39 @@ header{
   height: 130%;
   width: 50%;
 }
+
+
+
+/* BUSINESS PLAN */
+
+.business-plan{
+  height: 800px;
+  margin-top: 100px;
+}
+
+
+.business-plan .title{
+  height: 10%;
+}
+
+.bill-period{
+  height: 5%;
+  width: 40%;
+}
+
+.def-plan{
+  height: 60%;
+  display: flex;
+}
+
+.def-plan >*{
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.business-plan .personal{
+  height: 25%;
+}
+
+
+
