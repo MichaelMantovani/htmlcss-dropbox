@@ -76,7 +76,7 @@ header{
 
 /* Presentation */
 
-.presentation{
+.jumbotron{
   height: 100%;
 }
 
@@ -84,7 +84,7 @@ header{
   height: 30%;
 }
 
-.content{
+.presentation{
   height: 70%;
   display: flex;
 }
@@ -132,6 +132,31 @@ header{
 .business-plan .personal{
   height: 25%;
 }
+
+
+/* PARTNER */
+
+.partner{
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.pic, .content{
+  width: 50%;
+  height: 100%;
+}
+
+
+.info{
+  height: 70%;
+}
+
+.partner-button{
+  height: 30%;
+}
+
+
 
 
 
