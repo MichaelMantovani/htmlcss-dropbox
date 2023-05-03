@@ -9,8 +9,40 @@
 
 /* CUSTOM PROPERTIES */
 
+
+
 /* GENERICS */
 
+header{
+  height: 50px;
+}
+
+
+
 /* UTILITY */
+
+.bd{
+  border: 1px dashed black;
+}
+
+
+
+
+/* HEADER */
+
+.nav-bar{
+  height: 100%;
+  display: flex;
+}
+
+
+.nav-bar .logo, .sign-control{
+  flex-basis: 10%;
+}
+
+
+.nav-bar .menu, .support{
+  flex-basis: 40%;
+}
 
 
