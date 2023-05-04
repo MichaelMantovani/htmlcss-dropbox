@@ -42,7 +42,6 @@ header{
 
 .container-small{
   max-width: 1080px;
-  height: 100%;
   margin: 0 auto;
 }
 
@@ -186,6 +185,35 @@ header{
 
 .card-img{
   height: 50%;
+}
+
+
+/* BUSINESS PARTNER */
+
+
+.title {
+  height: 50px;
+}
+
+.business-partner{
+  height: 400px;
+  display: flex;
+
+}
+
+.business-partner > div{
+  flex-basis: calc(100% / 3);
+}
+
+
+.tryout{
+  height: 200px;
+  display: flex;
+}
+
+
+.tryout > *{
+  flex-basis: 50%;
 }
 
 
