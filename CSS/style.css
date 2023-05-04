@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+
+
 /* CUSTOM PROPERTIES */
 
 :root{
@@ -31,6 +33,13 @@ a{
   color: black;
 }
 
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 30px;
+}
 
 header ul{
   list-style-type: none;
@@ -46,6 +55,37 @@ header a{
 h1{
   font-size: 74px;
   font-weight: 900;
+}
+
+h2{
+  padding: 40px 0;
+  font-size: 45px;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.def-plan h3{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h4{
+  margin-bottom: 30px;
+}
+
+.fa-solid{
+  padding-right: 2px;
+}
+
+.fa-check{
+  color: #0061ff;
+}
+
+.price{
+  font-weight: 600;
 }
 
 
@@ -69,16 +109,36 @@ h1{
   background-color: var(--bg);
 }
 
-
-
-
-.btn-dark{
+.btn-login{
   background-color: rgb(0,97,255);
   color: white;
   padding: 8px 15px;
 }
 
+.btn-dark{
+  background-color: rgb(0,97,255);
+  color: white;
+  padding: 15px 25px;
+}
 
+
+.bds{
+  border: 1px solid rgb(208,208,211);
+}
+
+.normal-link{
+  text-decoration: underline;
+  color: rgb(33,0,238);
+}
+
+.card-separator{
+  width: 50px;
+  border-bottom: 1px solid rgb(208,208,211);
+  margin: 50px 0;
+}
+
+
+/* REMOVE */
 .bd{
   border: 1px dashed black;
 }
@@ -198,51 +258,112 @@ h1{
 
 
 
-
-
-
-
-/* BUSINESS PLAN */
+/* Business plan */
 
 .business-plan{
-  height: 800px;
   margin-top: 100px;
 }
 
 
-.business-plan .title{
-  height: 10%;
+.def-plan{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .bill-period{
-  height: 5%;
-  width: 40%;
+  padding: 40px 0;
 }
 
-.def-plan{
-  height: 60%;
-  display: flex;
+
+.bill-period .yearly, .monthly{
+  display: inline-block;
+  padding-right: 30px;
 }
 
-.def-plan >*{
-  width: calc(100% / 3);
-  height: 100%;
+.checkbox{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  background: white;
+  border: 5px solid rgb(0,97,255);
+  border-radius: 50%
+}
+
+.def-plan > *{
+  flex-basis: 30%;
+}
+
+
+.def-plan .price{
+  line-height: 50px;
+}
+
+.def-plan .price-type{
+  margin-bottom: 60px;
+}
+
+.business-plan .type{
+  padding: 15px;
+  border-bottom: 1px solid rgb(208,208,211);
+  text-align: center;
+}
+
+.def-plan .free-trial{
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
 
 .business-plan .personal{
-  height: 25%;
+  margin-top: 25px;
 }
+
+.business-plan .card{
+  padding: 25px;
+}
+
+.content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.content > *{
+  flex-basis: 30%;
+}
+
+.content .buy{
+  text-align: right;
+}
+
+.personal .description{
+  margin: 15px 0;
+}
+
+.personal .price{
+  margin-bottom: 50px;
+}
+
+.personal .property{
+  width: 65%;
+}
+
+
+
+
+
 
 
 /* PARTNER */
 
 .partner{
   height: 400px;
-  margin-top: 50px;
+  margin-top: 600px;
   display: flex;
 }
 
-.pic, .content{
+.pic{
   width: 50%;
   height: 100%;
 }
