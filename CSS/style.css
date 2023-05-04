@@ -217,6 +217,26 @@ header{
 }
 
 
+/* FAQ */
+
+.faq{
+  height: 300px;
+  margin-top: 20px;
+}
+
+.faq .title{
+  height: 20%;
+}
+
+
+.separator{
+  border: 0.1px solid rgb(159,159,159);
+}
+
+.question{
+  height: 25%;
+}
+
 
 
 
