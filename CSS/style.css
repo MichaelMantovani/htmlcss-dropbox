@@ -67,6 +67,7 @@ h3{
   font-size: 25px;
 }
 
+
 .def-plan h3{
   margin-top: 40px;
   margin-bottom: 10px;
@@ -119,6 +120,13 @@ h4{
   background-color: rgb(0,97,255);
   color: white;
   padding: 15px 25px;
+}
+
+.btn-light{
+  display: inline-block;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 
@@ -203,6 +211,9 @@ h4{
 
 
 /* MAIN */
+
+
+
 
 /* Jumbotron*/
 
@@ -323,10 +334,10 @@ h4{
   padding: 25px;
 }
 
-.content{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.business-plan .content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content > *{
@@ -346,42 +357,41 @@ align-items: center;
 }
 
 .personal .property{
-  width: 65%;
+  width: 55%;
 }
 
 
 
-
-
-
-
-/* PARTNER */
+/* Partner */
 
 .partner{
-  height: 400px;
-  margin-top: 600px;
   display: flex;
+  margin-top: 130px;
 }
 
-.pic{
-  width: 50%;
-  height: 100%;
+.partner .content{
+  flex-basis: 30%;
+  padding: 60px 0;
+  padding-left: 50px;
+}
+
+.partner-pic img{
+  height: 550px;
+}
+
+.info > *{
+  padding: 20px 0;
 }
 
 
-.info{
-  height: 70%;
-}
 
-.partner-button{
-  height: 30%;
-}
+
 
 /* FEATURE  */
 
 .feature{
   height: 800px;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 .feature .title{
