@@ -13,6 +13,16 @@
 
 :root{
   --bg: rgb(180,208,231); 
+  --bg-designit: rgb(162,211,155);
+  --bg-asu: rgb(97,8,43);
+  --bg-uf: rgb(0,147,206);
+  --bg-topps: rgb(255,28,28);
+  --bg-wbr: rgb(213,0,31);
+  --bg-hearts: rgb(180,208,231);
+  --bg-lonely-planet: rgb(13,36,129);
+  --bg-ccoutdoor: rgb(255,216,48);
+
+
 }
 
 
@@ -38,7 +48,7 @@ ul{
 }
 
 li{
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 header ul{
@@ -68,14 +78,14 @@ h3{
 }
 
 
+
+
 .def-plan h3{
   margin-top: 40px;
   margin-bottom: 10px;
 }
 
-h4{
-  margin-bottom: 30px;
-}
+
 
 p{
   padding: 30px 0;
@@ -110,6 +120,12 @@ p{
   margin: 0 auto;
 }
 
+.flex-space-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .bg{
   background-color: var(--bg);
 }
@@ -128,6 +144,7 @@ p{
 
 .btn-light{
   display: inline-block;
+  background-color: white;
   color: black;
   border: 1px solid black;
   padding: 10px;
@@ -148,6 +165,45 @@ p{
   border-bottom: 1px solid rgb(208,208,211);
   margin: 50px 0;
 }
+
+.bg-designit{
+  background-color: var(--bg-designit);
+}
+
+.bg-asu{
+  background-color: var(--bg-asu);
+}
+
+.bg-uf{
+  background-color: var(--bg-uf);
+}
+
+.bg-topps{
+  background-color: var(--bg-topps);
+}
+
+.bg-wbr{
+  background-color: var(--bg-wbr);
+}
+
+.bg-hearst{
+  background-color: var(--bg-hearts);
+}
+
+.bg-lonely-planet{
+  background-color: var(--bg-lonely-planet);
+}
+
+.bg-ccoutdoor{
+  background-color: var(--bg-ccoutdoor);
+}
+
+.svg-white{
+filter: invert(100%);
+}
+
+
+
 
 
 /* REMOVE */
@@ -335,7 +391,7 @@ p{
 }
 
 .business-plan .card{
-  padding: 25px;
+  padding: 35px;
 }
 
 .business-plan .content{
@@ -362,6 +418,10 @@ p{
 
 .personal .property{
   width: 55%;
+}
+
+.highlights h4{
+  padding-bottom: 30px;
 }
 
 
@@ -401,6 +461,7 @@ p{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 .feature .column{
@@ -415,33 +476,58 @@ p{
 
 /* BUSINESS PARTNER */
 
-
-.title-business {
-  height: 50px;
-  margin-top: 420px;
-}
-
-.business-partner{
-  height: 400px;
+.sponsor{
   display: flex;
-
-}
-
-.business-partner > div{
-  flex-basis: calc(100% / 3);
+  margin-top: 150px;
 }
 
 
-.tryout{
-  height: 200px;
+.square-lg{
+  flex-basis: calc(100vw / 3);
+  height: calc(100vw / 3);
   display: flex;
+  flex-wrap: wrap;
 }
 
-
-.tryout > *{
+.square-sm{
   flex-basis: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.square-sm img{
+  max-width: 50%;
+}
+
+.square-central{
+  background-color: rgb(245,245,245);
+  padding: 30px;
+}
+
+
+.square-central img{
+  max-width: 40%;
+}
+
+.try-out{
+  padding: 150px;
+}
+
+.try-out a{
+  border: 1px solid transparent;
+}
+
+.try-out h4{
+  color: rgb(97,8,43);
+  font-size: 40px;
+  flex-basis: 60%;
+}
+
+.try-out a{
+  padding: 10px 45px
+}
 
 /* FAQ */
 
