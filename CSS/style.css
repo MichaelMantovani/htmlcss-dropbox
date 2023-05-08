@@ -207,6 +207,7 @@ p{
   background-color: white;
   border: 1px solid black;
   padding: 10px;
+  cursor: pointer;
 }
 
 
@@ -437,23 +438,14 @@ p{
 
 .partner{
   display: flex;
+  gap: 50px;
   margin-top: 130px;
 }
 
-.partner .content{
-  flex-basis: 30%;
-  padding: 60px 0;
-  padding-left: 50px;
-}
 
 .partner-pic img{
-  height: 550px;
+  max-width: 100%;
 }
-
-.info > *{
-  padding: 20px 0;
-}
-
 
 
 
