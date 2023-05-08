@@ -51,11 +51,12 @@ ul{
 }
 
 
-
 h1{
   font-size: 78px;
   font-weight: 900;
 }
+
+
 
 h2{
   padding: 40px 0;
@@ -80,9 +81,12 @@ p{
   padding: 30px 0;
 }
 
-.fa-solid{
-  padding-right: 2px;
+
+.fa-arrow-down{
+  font-size: 50px;
+  padding-top: 30px;
 }
+
 
 .fa-check{
   color: #0061ff;
@@ -107,6 +111,14 @@ p{
 .container-small{
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.col-30{
+  width: 30%;
+}
+
+.col-70{
+  width: 70%;
 }
 
 
@@ -243,53 +255,32 @@ filter: invert(100%);
 /* Jumbotron*/
 
 .jumbo-row{
-  padding-top: 70px;
-  padding-bottom: 20px;
-}
-
-.jumbotron{
-  height: 100%;
+  height: 660px;
 }
 
 
-.presentation{
-  height: 70%;
+.jumbo-content{
   display: flex;
+  margin-top: 50px;
 }
 
-.jumbo-intro{
-  width: 34%;
+
+.jumbo-content .col-30{
   line-height: 25px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  gap: 25px;
 }
 
 
-.jumbo-intro, .jumbo-pic{
-  margin-top: 40px;
-}
-
-.jumbo-pic{
-  width: 83%;
+ .jumbo-content img{
+  max-width: 100%;
   position: relative;
-  margin-left: 20px;
 }
 
-.jumbo-pic img{
-  width: 870px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
 
-.fa-arrow-down{
-  font-size: 50px;
-  margin-top: 40px;
-}
 
 
 
