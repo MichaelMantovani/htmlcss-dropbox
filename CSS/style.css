@@ -12,7 +12,7 @@
 /* CUSTOM PROPERTIES */
 
 :root{
-  --bg: rgb(180,208,231); 
+  --bg-jumbotron: rgb(180,208,231); 
   --bg-designit: rgb(162,211,155);
   --bg-asu: rgb(97,8,43);
   --bg-uf: rgb(0,147,206);
@@ -21,6 +21,8 @@
   --bg-hearts: rgb(180,208,231);
   --bg-lonely-planet: rgb(13,36,129);
   --bg-ccoutdoor: rgb(255,216,48);
+  --color-: black;
+  --color-btn-dark: white;
 
 
 }
@@ -43,24 +45,12 @@ a{
   color: black;
 }
 
+
 ul{
   list-style-type: none;
 }
 
-li{
-  padding-bottom: 30px;
-}
 
-header ul{
-  list-style-type: none;
-  display: flex;
-  gap: 35px;
-}
-
-
-header a{
-  color: black;
-}
 
 h1{
   font-size: 78px;
@@ -84,7 +74,6 @@ h3{
   margin-top: 40px;
   margin-bottom: 10px;
 }
-
 
 
 p{
@@ -120,32 +109,34 @@ p{
   margin: 0 auto;
 }
 
+
 .flex-space-center{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.bg{
-  background-color: var(--bg);
+
+.bg-jumbotron{
+  background-color: var(--bg-jumbotron);
 }
 
 .btn-login{
   background-color: rgb(0,97,255);
-  color: white;
+  color: var(--color-btn-dark);
   padding: 8px 15px;
+  margin-right: 20px;
 }
 
 .btn-dark{
   background-color: rgb(0,97,255);
-  color: white;
+  color: var(--color-btn-dark);
   padding: 15px 25px;
 }
 
 .btn-light{
   display: inline-block;
   background-color: white;
-  color: black;
   border: 1px solid black;
   padding: 10px;
 }
@@ -235,55 +226,18 @@ filter: invert(100%);
 .nav-bar{
   height: 100%;
   display: flex;
-}
-
-
-.nav-bar .logo, .sign-control{
-  flex-basis: 10%;
-}
-
-
-.nav-bar .menu, .support{
-  flex-basis: 40%;
-}
-
-
-.logo img{
-  height: 25px;
-}
-
-
-.logo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.nav-bar .menu{
-  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-
-.nav-bar .support{
+.nav-bar ul{
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  gap: 35px;
 }
 
-
-.nav-bar .sign-control{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 20px;
-}
 
 
 /* MAIN */
-
-
 
 
 /* Jumbotron*/
