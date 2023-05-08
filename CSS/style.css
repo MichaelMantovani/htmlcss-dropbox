@@ -255,7 +255,11 @@ filter: invert(100%);
 /* Jumbotron*/
 
 .jumbo-row{
-  height: 660px;
+  height: 750px;
+}
+
+.jumbotron{
+  padding-top: 80px;
 }
 
 
