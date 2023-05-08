@@ -23,6 +23,7 @@
   --bg-ccoutdoor: rgb(255,216,48);
   --color-: black;
   --color-btn-dark: white;
+  --color-tryout-banner: rgb(97,8,43);
 
 
 }
@@ -60,6 +61,7 @@ h1{
 
 h2{
   font-size: 45px;
+  padding: 40px 0;
 }
 
 
@@ -126,12 +128,11 @@ p{
   width: 70%;
 }
 
-
-.flex-space-center{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.col-50{
+  width: 50%;
 }
+
+
 
 .svg-white{
   filter: invert(100%);
@@ -139,11 +140,13 @@ p{
 
 
 .ypad-40{
-    padding: 40px 0;
+  padding: 40px 0;
   }
 
+  .mrg-top-150{
+    margin-top: 150px;
+  }
 
-  
 
 .vertical-list li{
   padding: 10px 0;
@@ -280,20 +283,6 @@ p{
 
 .bg-ccoutdoor{
   background-color: var(--bg-ccoutdoor);
-}
-
-
-
-
-
-
-/* REMOVE */
-.bd{
-  border: 1px dashed black;
-}
-
-.bdw{
-  border: 1px dashed white;
 }
 
 
@@ -439,7 +428,6 @@ p{
 .partner{
   display: flex;
   gap: 50px;
-  margin-top: 130px;
 }
 
 
@@ -452,10 +440,6 @@ p{
 
 /* FEATURE  */
 
-.feature{
-  margin-top: 200px;
-}
-
 .feature .row{
   display: flex;
   flex-wrap: wrap;
@@ -467,7 +451,6 @@ p{
   flex-basis: calc(100% / 3 - 30px);
 }
 
-
 .card img{
   max-width: 100%;
 }
@@ -477,7 +460,6 @@ p{
 
 .sponsor{
   display: flex;
-  margin-top: 150px;
 }
 
 
@@ -511,22 +493,33 @@ p{
 }
 
 .try-out{
-  padding: 150px;
+  height: 300px;
 }
 
-.try-out a{
+.try-out .content{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.try-out .col-30{
+  height: 40%;
+}
+
+
+.try-out .btn-light{
   border: 1px solid transparent;
+  padding: 10px 45px;
 }
 
 .try-out h4{
-  color: rgb(97,8,43);
+  color: var(--color-tryout-banner);
   font-size: 40px;
-  flex-basis: 60%;
 }
 
-.try-out a{
-  padding: 10px 45px
-}
+
+
 
 /* FAQ */
 
