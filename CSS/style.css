@@ -22,10 +22,11 @@
   --bg-hearts: rgb(180,208,231);
   --bg-lonely-planet: rgb(13,36,129);
   --bg-ccoutdoor: rgb(255,216,48);
+  --bg-btn-dark: rgb(0, 97, 255);
   --color-: black;
   --color-btn-dark: white;
   --color-tryout-banner: rgb(97,8,43);
-
+  
 
 }
 
@@ -104,7 +105,7 @@ p{
 
 
 .fa-check{
-  color: #0061ff;
+  color: var(--bg-btn-dark)
 }
 
 
@@ -188,7 +189,7 @@ p{
 /* Button */
 
 .btn-login{
-  background-color: rgb(0,97,255);
+  background-color: var(--bg-btn-dark);
   color: var(--color-btn-dark);
   padding: 8px 15px;
   margin-right: 20px;
@@ -208,14 +209,14 @@ p{
 
 
 .btn-radio:hover{
-  border: 5px solid rgb(0,97,255);
+  border: 5px solid var(--bg-btn-dark);
 }
 
 
 
 .btn-dark{
   text-align: center;
-  background-color: rgb(0,97,255);
+  background-color: var(--bg-btn-dark);
   color: var(--color-btn-dark);
   padding: 15px 25px;
   cursor: pointer;
@@ -417,6 +418,9 @@ p{
 }
 
 
+
+
+
 .business-plan .personal{
   margin-top: 25px;
 }
@@ -456,7 +460,7 @@ p{
 
 
 
-/* FEATURE  */
+/* Feature  */
 
 .feature .row{
   display: flex;
