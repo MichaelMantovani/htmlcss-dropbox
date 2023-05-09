@@ -50,6 +50,7 @@ header{
 
 
 a{
+  display: block;
   text-decoration: none;
   color: black;
 }
@@ -213,6 +214,7 @@ p{
 
 
 .btn-dark{
+  text-align: center;
   background-color: rgb(0,97,255);
   color: var(--color-btn-dark);
   padding: 15px 25px;
@@ -230,6 +232,7 @@ p{
 
 
 .normal-link{
+  display: inline;
   text-decoration: underline;
   color: rgb(33,0,238);
 }
