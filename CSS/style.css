@@ -556,8 +556,13 @@ p{
 
 .fa-angle-down{
   flex-basis: 10%;
-  align-self: center;
 }
+
+.question:hover > .fa-angle-down{
+  transform: rotatex(180deg);
+}
+
+
 
 
 .question:hover::after{
