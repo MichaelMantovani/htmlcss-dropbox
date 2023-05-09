@@ -471,7 +471,7 @@ p{
 }
 
 
-/* BUSINESS PARTNER */
+/* Sponsor */
 
 .sponsor{
   display: flex;
@@ -488,6 +488,8 @@ p{
 .square-sm{
   flex-basis: 50%;
   height: 50%;
+  border: 15px solid transparent;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,6 +507,11 @@ p{
 
 .square-central img{
   max-width: 40%;
+}
+
+
+.square-sm:hover{
+  border: 15px solid rgba(255, 255, 255, 0.5);
 }
 
 .try-out{
@@ -561,7 +568,6 @@ p{
 .question:hover > .fa-angle-down{
   transform: rotatex(180deg);
 }
-
 
 
 
