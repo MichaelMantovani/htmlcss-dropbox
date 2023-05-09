@@ -12,6 +12,7 @@
 /* CUSTOM PROPERTIES */
 
 :root{
+  --bg-header: white;
   --bg-jumbotron: rgb(180,208,231);
   --bg-designit: rgb(162,211,155);
   --bg-asu: rgb(97,8,43);
@@ -38,6 +39,13 @@ body{
 
 header{
   height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: var(--bg-header);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 
